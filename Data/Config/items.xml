@@ -10716,12 +10716,15 @@
 		</property>
 		<property name="CraftingIngredientExp" value="10"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2076" name="soupChicken">
 		<property name="Extends" value="soupChunkyBeef"/>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2077" name="soupLamb">
 		<property name="Extends" value="soupChunkyBeef"/>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2078" name="bowlChili">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -10731,6 +10734,7 @@
 			<property name="Gain_water" value="-10"/>
 			<property name="Gain_gas" value="30"/>
 		</property>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2079" name="bowlMiso">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -10739,6 +10743,7 @@
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="20"/>
 		</property>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2080" name="soupPea">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -10746,6 +10751,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 		</property>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2081" name="bowlPasta">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -10754,6 +10760,7 @@
 			<property name="Gain_food" value="14"/>
 			<property name="Gain_water" value="0"/>
 		</property>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2082" name="bowlSoup">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -10762,6 +10769,7 @@
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="20"/>
 		</property>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2083" name="bowlStock">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -10770,6 +10778,7 @@
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="20"/>
 		</property>
+		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
 	<item id="2084" name="creamedCorn">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -10828,6 +10837,7 @@
 		</property>
 		<property name="CraftingIngredientExp" value="10"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="warmBowlDesc"/>
 	</item>
 	<item id="2086" name="warmsoupChunkyBeef">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -14486,6 +14496,7 @@
 			<property name="Gain_food" value="15"/>
 		</property>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="applePieDesc"/>
 	</item>
 	<item id="2778" name="Omelet">
 		<property name="Meshfile" value="Items/Food/blueberry_pie"/>
@@ -14506,6 +14517,7 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Smell" value="smallSmell"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="OmeletDesc"/>
 	</item>
 	<item id="2779" name="baconEggSandwich">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
@@ -14529,10 +14541,12 @@
 			<property name="Rot" value="90,45,0"/>
 		</property>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="SandwichDesc"/>
 	</item>
 	<item id="2780" name="Hamburger">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
+		<property name="DescriptionKey" value="hamburgerDesc"/>
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="50"/>
 		<!-- STK food -->
@@ -14557,6 +14571,7 @@
 			<property name="Gain_wellness" value="1"/>
 		</property>
 		<property name="Smell" value="mediumSmell"/>
+		<property name="DescriptionKey" value="honeyHamDesc"/>
 	</item>
 	<item id="2782" name="dinnerPlate">
 		<property name="DescriptionKey" value="dinnerPlateDesc"/>
@@ -14574,6 +14589,7 @@
 	</item>
 	<item id="2783" name="steakSandwich">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+		<property name="DescriptionKey" value="SandwichDesc"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="50"/>
@@ -14604,6 +14620,7 @@
 	</item>
 	<item id="2785" name="mealBreakfast">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+		<property name="DescriptionKey" value="mealDesc"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="5"/>
@@ -14625,6 +14642,7 @@
 	</item>
 	<item id="2786" name="mealDinner">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+		<property name="DescriptionKey" value="mealDesc"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="Stacknumber" value="5"/>
@@ -16162,7 +16180,7 @@
 			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
-		<property name="DescriptionKey" value="hamSandwichDesc"/>
+		<property name="DescriptionKey" value="SandwichDesc"/>
 		<property name="CraftingIngredientExp" value="10"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Smell" value="ExLargeSmell"/>
@@ -18528,7 +18546,7 @@
 	</item>
 	<item id="3124" name="skinningKnife2">
 		<property name="Extends" value="huntingKnife" />
-		<property name="DescriptionKey" value="skinningKnife2Desc" />
+		<property name="DescriptionKey" value="skinningKnifeDesc" />
 		<property name="Meshfile" value="#utilityknives?SkinningKnife" />
 		<property name="CustomIcon" value="skinningKnife2" />
 		<property class="Action0">
@@ -18701,8 +18719,9 @@
 			<property name="EntityDamage" value="25,45"/>
 			<property name="BlockDamage" value="1,5"/>
 		</property>
-		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
+		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
 		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value="stonecrossbowBoltDesc" />
 	</item>
 	<item id="3133" name="halicopterCrate">
 		<!-- <property name="HoldingItemHidden" value="true" /> -->
@@ -22098,6 +22117,7 @@
 	</item>
 	<item id="3251" name="coltPython">
 		<property name="Extends" value="gun44Magnum"/>
+		<property name="DescriptionKey" value="coltPythonDesc"/>
 		<property name="CustomIcon" value="coltPython"/>
 		<property name="Meshfile" value="#coltPython?coltPython"/>
 		<property class="Parts">

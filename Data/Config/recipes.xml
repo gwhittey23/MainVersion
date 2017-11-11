@@ -347,11 +347,11 @@
 		<ingredient name="unit_lead" count="3"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="bulletCasing" count="1" craft_area="BigForge"  craft_tool="forgeCrucible" material_based="true">
+	<recipe name="bulletCasing" count="1" craft_area="BigForge"  craft_tool="calipers" material_based="true">
 		<ingredient name="unit_brass" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="bulletTip" count="1" craft_area="BigForge"  craft_tool="forgeCrucible" material_based="true">
+	<recipe name="bulletTip" count="1" craft_area="BigForge"  craft_tool="calipers" material_based="true">
 		<ingredient name="unit_lead" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
@@ -741,35 +741,35 @@
 		<ingredient name="unit_lead" count="5"/>
 		<ingredient name="unit_clay" count="2"/>
 	</recipe>
-	<recipe name="glassBulletproofBlock" count="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="glassBulletproofBlock" count="1" craft_area="BigForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofPlate" count="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="glassBulletproofPlate" count="1" craft_area="BigForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofCTRPlate" count="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="glassBulletproofCTRPlate" count="1" craft_area="BigForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofPlateCurved" count="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="glassBulletproofPlateCurved" count="1" craft_area="BigForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofRamp" count="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="glassBulletproofRamp" count="1" craft_area="BigForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
@@ -913,23 +913,23 @@
 		<ingredient name="feather" count="1"/>
 	</recipe>
 
-	<recipe name="ironBoots" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="ironBoots" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="leather" count="3"/>
 	</recipe>
-	<recipe name="ironChestArmor" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="ironChestArmor" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="forgedIron" count="30"/>
 		<ingredient name="leather" count="5"/>
 	</recipe>
-	<recipe name="ironGloves" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="ironGloves" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="leather" count="3"/>
 	</recipe>
-	<recipe name="ironHelmet" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="ironHelmet" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="leather" count="3"/>
 	</recipe>
-	<recipe name="ironLegArmor" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="ironLegArmor" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="forgedIron" count="30"/>
 		<ingredient name="leather" count="5"/>
 	</recipe>
@@ -2759,23 +2759,23 @@
 		<ingredient name="emptyJar" count="1" />
 	</recipe>
 	<!-- Expanded Armor Mod -->
-	<recipe name="steelBoots" count="1" craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="steelBoots" count="1" craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="forgedSteel" count="20" />
 		<ingredient name="leather" count="3" />
 	</recipe>
-	<recipe name="steelChestplate" count="1" craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="steelChestplate" count="1" craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="leather" count="5"/>
 		<ingredient name="forgedSteel" count="30" />
 	</recipe>
-	<recipe name="steelGloves" count="1" craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="steelGloves" count="1" craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="forgedSteel" count="20" />
 		<ingredient name="leather" count="3" />
 	</recipe>
-	<recipe name="steelHelmet" count="1" craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="steelHelmet" count="1" craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="forgedSteel" count="20" />
 		<ingredient name="leather" count="3"/>
 	</recipe>
-	<recipe name="steelLegs" count="1" craft_area="anvilBlock" craft_tool="weldingTorch" >
+	<recipe name="steelLegs" count="1" craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="leather" count="3"/>
 		<ingredient name="forgedSteel" count="30"/>
 	</recipe>
@@ -3997,9 +3997,10 @@
 		<ingredient name="bowlWater" count="1" />
 		<ingredient name="Apple" count="3" />
 	</recipe>
-	<recipe name="baconEggSandwich" count="1" >
+	<recipe name="baconEggSandwich" count="1"   craft_time = "8" craft_area="foodPrepTable" craft_tool="butcherKnife" >
 		<ingredient name="baconAndEggs" count="2"/>
-		<ingredient name="Bread" count="1"/>
+		<ingredient name="Bread" count="2"/>
+		<ingredient name="slicedCheese" count="1"/>
 	</recipe>
 	<recipe name="Omelet" count="1" craft_area="BigCampFire"  >
 		<ingredient name="egg" count="2"/>
@@ -4017,7 +4018,7 @@
 	<recipe name="grillSteak" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="rawMeat" count="3"/>
 	</recipe>
-	<recipe name="steakSandwich" count="1" >
+	<recipe name="steakSandwich" count="1"  craft_time = "8" craft_area="foodPrepTable" craft_tool="butcherKnife" >
 		<ingredient name="grillSteak" count="1"/>
 		<ingredient name="Bread" count="2"/>
 	</recipe>
@@ -5888,27 +5889,27 @@
 		<ingredient name="ZincFragment" count="20"/>
 	</recipe>
 
-<recipe name="diamondgloves" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+<recipe name="diamondgloves" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="rawDiamond" count="15" />
 		<ingredient name="forgedSteel" count="150" />			
 </recipe>
 
-<recipe name="diamondmask" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+<recipe name="diamondmask" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="rawDiamond" count="15" />
 		<ingredient name="forgedSteel" count="150" />			
 </recipe>
 
-<recipe name="diamondboots" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+<recipe name="diamondboots" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="rawDiamond" count="15" />
 		<ingredient name="forgedSteel" count="150" />			
 </recipe>
 
-<recipe name="diamondlegs" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+<recipe name="diamondlegs" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="rawDiamond" count="15" />
 		<ingredient name="forgedSteel" count="150" />			
 </recipe>
 
-<recipe name="diamondchest" count="1"  craft_area="anvilBlock" craft_tool="weldingTorch" >
+<recipe name="diamondchest" count="1"  craft_area="tailorStation" craft_tool="weldingTorch" >
 		<ingredient name="rawDiamond" count="15" />
 		<ingredient name="forgedSteel" count="150" />			
 </recipe>

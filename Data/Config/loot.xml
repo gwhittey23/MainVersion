@@ -1388,9 +1388,9 @@
 		<item name="ak47Schematic"/>
 		<item name="augerSchematic"/>
 		<item name="chainsawSchematic"/>
-		<item name="minibikesForDumbshits"/>
-		<item name="MinibikesForSmartshits" prob="0.11"/>
-		<item name="MinibikesForToughshits" prob="0.11"/>
+		<item name="minibikesForDumbshits" prob="0.35"/>
+		<item name="MinibikesForSmartshits" prob="0.15"/>
+		<item name="MinibikesForToughshits" prob="0.05"/>
 		<item name="rocketLauncherSchematic"/>
 		<item name="shotgunSlugSchematic"/>
 		<item name="sledgehammerSchematic"/>
@@ -2466,7 +2466,7 @@
 		<item group="gunparts"  count="1,3" prob="0.1"/>
 	</lootcontainer>
 	<!-- player dropped backpacks, they only destroy on close when they are empty -->
-<lootcontainer id="41" count="0" size="8,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+<lootcontainer id="41" count="0" size="10,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
 </lootcontainer>
 	<!-- gun safe -->
 	<lootcontainer id="42" count="2,4" size="8,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
@@ -3505,13 +3505,11 @@
 		<item name="huntingKnife"/>
 		<item name="machete" prob="0.8"/>
 		<item name="firstAidKit"/>
-		<item name="minibikeWheels" prob="0.4"/>
-		<item name="minibikeChassis" prob="0.4"/>
-		<item name="minibikeSeat" prob="0.4"/>
-		<item name="minibikeHandlebars" prob="0.4"/>
-		<item name="smallEngine" prob="0.3"/>
+
 		<item name="crossbowRepeater" prob="0.04"/>
-		<item name="minibikesForDumbshits"/>
+		<item name="minibikesForDumbshits" prob="0.05"/>
+		<item name="MinibikesForSmartshits" prob="0.05"/>
+		<item name="MinibikesForToughshits" prob="0.05"/>
 		<item group="gunmods" prob="0.15"/>
 		<item group="zombieQuests" prob="0.2"/>
 	</lootcontainer>
@@ -3602,4 +3600,16 @@
 	<item name="SoyMilk" count="1"  />
 
 		</lootcontainer>
+	<!-- dishwasher -->
+	<lootcontainer id="192" count="0,2" size="4,3" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="baseTemplate">
+		<item name="electricParts" count="1,2" prob="0.15"/>
+		<item name="cookingPot" count="1" prob="0.15"/>
+		<item name="cookingGrill" count="1" prob="0.15"/>
+		<item name="emptyJar" count="1,4"/>
+		<item name="canEmpty" count="1"/>
+		<item name="shortMetalPipe" count="1,2" prob="1.5"/>
+		<item name="bowl" count="1,3"/>
+		<item name="dinnerPlate" count="1,2" />
+		<item name="pan" count="1" prob="0.1" />
+	</lootcontainer>
 </lootcontainers>

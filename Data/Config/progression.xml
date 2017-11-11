@@ -443,7 +443,7 @@
 			<recipe name="BigForge" unlock_level="1"/>
 			<recipe name="anvil" unlock_level="1"/>
 		</perk>
-		<perk name="Blacksmith Hammer" icon="resource" description_key="The damned Blacksmith Hammer in all its glory. Rivals Thors Hammer" title_key="Advanced Forge" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<perk name="Blacksmith Hammer" icon="resource" description_key="The damned Blacksmith Hammer in all its glory. Rivals Thors Hammer" title_key="Blacksmith Hammer" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
 			<recipe name="blacksmithHammer" unlock_level="1"/>
 		</perk>
@@ -463,7 +463,6 @@
 		</perk>
 		<perk name="Blacksmithing Station" icon="resource" description_key="The Blacksmithing Station allows you to make metal armor and items using a Blacksmith Hammer and Welding Torch" title_key="Blacksmithing Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="60"/>
-			<requirement skill_level="1" required_skill_name="Clothing/Armor" required_skill_level="30"/>
 			<recipe name="anvilBlock" unlock_level="1"/>
 		</perk>
 		<perk name="Fermenting Station" icon="resource" description_key="The Fermenting Station allows you to make fertilizer, grain alcohol and beer as well as other various items" title_key="Fermenting Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">

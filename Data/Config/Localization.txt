@@ -1452,7 +1452,7 @@ canStockDesc,items,Food,KgNone,Stock up on stock or you could eat it now.,Conser
 canTuna,items,Food,KgNone,Can of Tuna,Conserve de thon,Dose Thunfisch,,Lata de atún
 canTunaDesc,items,Food,KgNone,A can of tuna or better known as the chicken of the wasteland.,"Une conserve de thon, plus connu sous le nom de poulet des terres désolées.","Eine Dose mit Thunfisch, der Standardmahlzeit aller Ödlandbewohner.",,"Una lata de atún, también conocida como el pollo del páramo."
 charredMeat,items,Food,KgNone,Charred Meat,Viande brûlée,Verkohltes Wildbret,,Carne chamuscada
-charredMeatDesc,items,Food,EnChanged,Charred meat is better than raw meat. It will dehydrate you but boost your wellness.\n [ Crafted in Advanced Campfire and Stoves and Grilled Meat and Campfire. ],"La viande brûlée est bien meilleure que la viande crue. Elle vous déshydrate, mais améliore votre bien-être. Susceptible d'attirer des zombies si vous la portez.","Verkohltes Wildbret ist besser als rohes Wildbret. Es wird dich dehydrieren, dafür aber dein Wohlbefinden erhöhen.",,"La carne chamuscada es mejor que la carne cruda. Te deshidrata, pero mejorará tu bienestar. Puede atraer zombis si la llevas encima."
+charredMeatDesc,items,Food,EnChanged,Charred meat is better than raw meat. It will dehydrate you but boost your wellness.\n [ Crafted in Advanced Campfire and Stoves and Barbecue Grill and Campfire. ],"La viande brûlée est bien meilleure que la viande crue. Elle vous déshydrate, mais améliore votre bien-être. Susceptible d'attirer des zombies si vous la portez.","Verkohltes Wildbret ist besser als rohes Wildbret. Es wird dich dehydrieren, dafür aber dein Wohlbefinden erhöhen.",,"La carne chamuscada es mejor que la carne cruda. Te deshidrata, pero mejorará tu bienestar. Puede atraer zombis si la llevas encima."
 coffee,items,Food,KgNone,Coffee,Café,Kaffee,,Café
 coffeeDesc,items,Food,KgNone,"Coffee gives you energy, keeps your stamina up and helps you stay warm for a limited time.","Le café vous donne de l'énergie, maintient votre endurance à un niveau élevé et vous donne chaud pendant une durée limitée.","Kaffee verleiht dir Energie, hält deine Ausdauer auf einem hohen Niveau und wärmt dich für begrenzte Zeit.",,"El café te da energía, aumenta tu resistencia y te ayuda a entrar en calor por un rato."
 cornBread,items,Food,KgNone,Corn Bread,Pain de maïs,Maisbrot,,Pan de maíz
@@ -1601,7 +1601,7 @@ masonJar,items,Item,KgNone,Empty Mason Jar,Bocal de conserve vide,Leeres Einweck
 militaryFiber,items,Item,KgNone,Military Fiber,Fibres militaires,Militärische Faser,,Fibra militar
 militaryFiberDesc,items,Item,KgNone,Military grade synthetic fibers are used to repair military armor. (ballistic armor to be accurate)\n [ Crafted in Chemistry Station. ],"Les fibres synthétiques de qualité militaire servent à réparer les armures militaires. (Les armures balistiques, pour être précis.)","Militärische Synthetikfasern dienen dazu, Militärkleidung zu reparieren. (Ballistikpanzerung, um genau zu sein)",,"Las fibras militares sintéticas se usan para reparar armaduras militares. (armaduras balísticas, para ser más exactos)"
 nail,items,Item,KgNone,Nails,Clous,Nägel,,Clavos
-nailDesc,items,Item,KgNone,Nails are used to build furniture, large storage crates and as ammo for the nail gun.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],"Les clous servent à construire du mobilier et de grandes caisses de rangement, mais aussi comme munitions pour le pistolet à clous.","Nägel werden für Möbel, große Kästen und als Munition für Nagelpistolen verwendet.",,"Los clavos se usan para construir mobiliario, cajones de almacenamiento grandes y como munición para la pistola de clavos."
+nailDesc,items,Item,KgNone,Nails are used to build furniture large storage crates and as ammo for the nail gun.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ,"Les clous servent à construire du mobilier et de grandes caisses de rangement, mais aussi comme munitions pour le pistolet à clous.","Nägel werden für Möbel, große Kästen und als Munition für Nagelpistolen verwendet.",,"Los clavos se usan para construir mobiliario, cajones de almacenamiento grandes y como munición para la pistola de clavos."
 oil,items,Item,KgNone,Oil,Essence,Öl,,Aceite
 oilDesc,items,Item,KgNone,Oil is a key ingredient for crafting repair kits.\n [ Crafted in Chemistry Station and oilRefinery. ],L'essence est un composant clé dans la fabrication de kits de réparation.,Öl ist eine wichtige Zutat bei der Herstellung von Reparaturkits.,,El aceite es un ingrediente clave para fabricar kits de reparación.
 oilShale,items,Item,KgNone,Oil Shale,Schiste bitumineux,Ölschiefer,,Esquisto bituminoso
@@ -5211,7 +5211,7 @@ warmbowlPasta,items,Item Food,,Warm Bowl of Pasta,,,,
 warmbowlSoup,items,Item Food,,Warm Soup,,,,
 warmbowlStock,items,Item Food,,Warm Bowl of Stock,,,,
 appleCider,items,Item Food,,Apple Cider,,,,
-warmBowlDesc,items,Item Food,,This bowl of food has been heated up to be more delicious and filling.,,,,
+warmBowlDesc,items,Item Food,,This bowl of food has been heated up to be more delicious and filling.\n [ Crafted in Advanced Campfire and Stoves. ],,,,
 assortedDyes,items,Item,,Assorted Dyes,,,,
 assortedDyesDesc,items,Item,,This can be useful at a Dye Station for coloring fabric armors.\n [ Crafted in Chemistry Station with a Beaker. ],,,,
 dyedClothingDesc,items,Item,,Its time to show off those spring fashions even in the Apocalypse.\n [ Crafted in Dye Station. ],,,,
@@ -5530,9 +5530,9 @@ gunPumpShotgunChokedDesc,items,Item Gun,,Pump shotgun with an attached choke for
 gunHuntingRifleSilenced,items,Item Gun,,Hunting Rifle (Silenced),,,,
 gunHuntingRifleSilencedDesc,items,Item Gun,,This silenced hunting rifle takes uses 762mm ammo.,,,,
 gunBoltRifle,items,Item Gun,,Bolt Rifle,,,,
-gunBoltRifleDesc,items,Item Gun,,This single-shot bolt rifle uses 762mm ammo and has a scope.\n [ Crafted in assembly. ],,,,
+gunBoltRifleDesc,items,Item Gun,,This single-shot bolt rifle uses 32mm ammo and has a scope.\n [ Crafted in assembly. ],,,,
 gunBoltRifleSilenced,items,Item Gun,,Bolt Rifle (Silenced),,,,
-gunBoltRifleSilencedDesc,items,Item Gun,,"This silenced, single-shot bolt rifle uses 762mm ammo and has a scope.",,,,
+gunBoltRifleSilencedDesc,items,Item Gun,,"This silenced, single-shot bolt rifle uses 32mm ammo and has a scope.",,,,
 gunAK47Silenced,items,Item Gun,,AK-47 Assault Rifle (Silenced),,,,
 gunAK47SilencedDesc,items,Item Gun,,This silenced assault rifle uses 762mm ammo.,,,,
 gunSniperRifleHPScope,items,Item Gun,,Sniper Rifle (High-Powered Scope),,,,
@@ -5942,7 +5942,7 @@ PepperoniDesc,items,Food,New,Pepperoni sliced from pork and goes great on pizza.
 slicedHam,items,Food,New,Sliced Ham,,,,
 slicedHamDesc,items,Food,New,Sliced ham that is great for sandwiches.\n [ Crafted in Food Prep Table with a Butcher's Knife. ],,,,
 hamSandwich,items,Food,New,Ham Sandwich,,,,
-hamSandwichDesc,items,Food,New,Fresh ham and cheese sandwich.\n [ Crafted in Food Prep Table with a Butcher's Knife. ],,,,
+SandwichDesc,items,Food,New,Combine meat and bread to make a delicious sandwich.\n [ Crafted in Food Prep Table with a Butcher's Knife. ],,,,
 slicedCheese,items,Food,New,Sliced Cheese,,,,
 slicedCheeseDesc,items,Food,New,Great for sandwiches and goes great on crackers.\n [ Crafted in Food Prep Table with a Butcher's Knife. ],,,,
 Cheese,items,Food,New,Cheese,,,,
@@ -6580,7 +6580,7 @@ PistolSilenced,items,Item,KgNone,Pistol (Silenced),,,,
 PistolSilencedDesc,items,Item,KgNone,A Pistol with a Silencer Attachment,Un pistolet avec une attache de silencieux,Eine Pistole mit einer Schalldämpfer-Befestigung,,Una pistola con un accesorio de silenciador
 PistolExtendedMagSilenced,items,Item,KgNone,Pistol (Extended Mag Silenced),,,,
 PistolExtendedMagSilencedDesc,items,Item,KgNone,A Pistol with a Extended Magazine and Silencer Attachments,Un pistolet avec un compartiment étendu et des attaches de silencieux,Eine Pistole mit einem erweiterten Magazin und Schalldämpfer Attachments,,Una Pistola con una Extensión de Compartimiento y Silenciador
-SteelMinibikeChassis,items,Item,KgNone,Steel Minibike Chassis,,,,
+SteelMinibikeChassis,items,Item,KgNone,Strengthened Minibike Chassis,,,,
 SteelMinibikeChassisDesc,items,Item,KgNone,Minibike Chassis made from Steel\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],Châssis miniature en acier,Minibike Chassis aus Stahl,,Chasis de Minibike de acero
 TungstenMinibikeChassis,items,Item,KgNone,Diamond Minibike Chassis,,,,
 TungstenMinibikeChassisDesc,items,Item,KgNone,Minibike Chassis made from Diamond\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],Châssis miniature en tungstène,Minibike Chassis aus Wolfram,,Chasis Minibike de Tungsteno
@@ -6588,7 +6588,7 @@ HDSmallEngine,items,Item,KgNone,Diamond Small Engine,,,,
 HDSmallEngineDesc,items,Item,KgNone,A Heavy Duty Engine\n [ Crafted in Advanced Workbench. ],Un moteur robuste,Eine Heavy Duty Engine,,Un motor de trabajo pesado
 ECOSmallEngine,items,Item,KgNone,ECO Small Engine,,,,
 ECOSmallEngineDesc,items,Item,KgNone,A Economic Friendly Engine\n [ Crafted in Advanced Workbench. ],Un moteur économique convivial,Ein Wirtschaftsfreundlicher Motor,,Un motor económico amigable
-KevlarMinibikeSeat,items,Item,KgNone,Stregthened Minibike Seat,,,,
+KevlarMinibikeSeat,items,Item,KgNone,Strengthened Minibike Seat,,,,
 KevlarMinibikeSeatDesc,items,Item,KgNone,Minibike seat made with Military Fiber\n [ Crafted in Advanced Workbench. ],Siège Minibike fabriqué avec Kevlar,Minibikesitz mit Kevlar,,Asiento de minibike hecho con Kevlar
 TungstenMinibikeSeat,items,Item,KgNone,Diamond Minibike Seat,,,,
 TungstenMinibikeSeatDesc,items,Item,KgNone,Minibike seat made with Steel\n [ Crafted in Advanced Workbench. ],Siège miniature en acier,Minibikesitz aus Stahl,,Asiento de Minibike hecho con acero
@@ -6596,11 +6596,11 @@ HDMinibikeWheels,items,Item,KgNone,Diamond Minibike Wheels,,,,
 HDMinibikeWheelsDesc,items,Item,KgNone,Heavy Duty Minibike Wheels,Roues de minibike lourdes,Heavy Duty Minibike Räder,,Ruedas de Minibike para servicio pesado
 TungstenPadlock,items,Item,KgNone,Diamond Padlock,,,,
 TungstenPadlockDesc,items,Item,KgNone,A Diamond Padlock for your minibike,Un cadenas en tungstène pour votre minibike,Ein Wolfram Vorhängeschloss für Ihr Minibike,,Un candado de tungsteno para su minibike
-SteelMinibikeHandlebars,items,Item,KgNone,Steel Minibike Handlebars,,,,
+SteelMinibikeHandlebars,items,Item,KgNone,Strengthened Minibike Handlebars,,,,
 SteelMinibikeHandlebarsDesc,items,Item,KgNone,Minibike handlebars made with Steel\n [ Crafted in Advanced Workbench. ],Guidon Minibike en Acier,Minibike Lenker aus Stahl,,Manillar de Minibike fabricado con Acero
 TungstenMinibikeHandlebars,items,Item,KgNone,Diamond Minibike Handlebars,,,,
 TungstenMinibikeHandlebarsDesc,items,Item,KgNone,Minibike handlebars made with Diamond\n [ Crafted in Advanced Workbench. ],Guidon Minibike fabriqué avec Tungsten,Minibike Lenker aus Wolfram,,Manillares de Minibike fabricados con Tungsteno
-SteelHandlebars,items,Item,KgNone,Steel Handlebars,,,,
+SteelHandlebars,items,Item,KgNone,Strengthened Handlebars,,,,
 SteelHandlebarsDesc,items,Item,KgNone,Handlebars made with Steel\n [ Crafted in Advanced Workbench. ],Poignées en acier,Lenker aus Stahl,,Manillar hecho con acero
 TungstenHandlebars,items,Item,KgNone,Diamond Handlebars,,,,
 TungstenHandlebarsDesc,items,Item,KgNone,Handlebars made with Diamond\n [ Crafted in Advanced Workbench. ],Guidons en tungstène,Lenker aus Wolfram,,Manillares fabricados con Tungsteno
@@ -6756,7 +6756,7 @@ gAZ33097D1,blocks,Loot Container,,GAZ 33097,,,,
 schoolBusD0,blocks,Loot Container,,School Bus,,,,
 schoolBusD1,blocks,Loot Container,,School Bus,,,,
 iMIGalil,items,Item Gun,,IMI Galil,,,,
-iMIGalilDesc,items,Item Gun,,This Assault Rifle uses 7.62x51mm NATO\n [ Crafted in assembly. ], 7.62x51mm Flame and 7.62x51mm Exploding. Can be re-assembled and repaired if you read the schematic.,,,
+iMIGalilDesc,items,Item Gun,,This Assault Rifle uses 7.62mm bullets. Can be re-assembled and repaired if you read the schematic.\n [ Crafted in assembly. ],,,
 iMIGalilBarrel,items,Item Gun,,IMI Galil Barrel,,,,
 iMIGalilReceiver,items,Item Gun,,IMI Galil Receiver,,,,
 iMIGalilStock,items,Item Gun,,IMI Galil Stock,,,,
@@ -6775,9 +6775,9 @@ hKG3Stock,items,Item Gun,,HK G3 Stock,,,,
 hKG3_Parts,items,Item Gun,,HK G3 Parts,,,,
 hKG3partsDesc,items,Item Gun,,A part of the HK G3 Assault Rifle. Assemble with other parts to create a complete HK G3 once you've read the schematic.,,,,
 hKG3,items,Item Gun,,HK G3,,,,
-hKG3Desc,items,Item Gun,,This Assault Rifle uses 7.62x51mm NATO\n [ Crafted in assembly. ], 7.62x51mm Flame and 7.62x51mm Exploding. Can be re-assembled and repaired if you read the schematic.,,,
+hKG3Desc,items,Item Gun,,This Assault Rifle uses 7.62mm bullets  Can be re-assembled and repaired if you read the schematic.\n [ Crafted in assembly. ],,,
 coltPython,items,Item Gun,,Colt Python,,,,
-coltPythonDesc,items,Item Gun,,It's the most powerful but makes the most noise. Uses 10.9x32.6mm Bullet\n [ Crafted in assembly. ], 10.9x32.6mm Flame and 10.9x32.6mm Exploding.,,,
+coltPythonDesc,items,Item Gun,,It's the most powerful but makes the most noise. Uses 44 Magnum Bullet.\n [ Crafted in assembly. ],,,
 coltPythonCylinder,items,Item Gun,,Colt Python Cylinder,,,,
 coltPythonFrame,items,Item Gun,,Colt Python Frame,,,,
 coltPythonGrip,items,Item Gun,,Colt Python Grip,,,,
@@ -6854,3 +6854,29 @@ stove,,,,Iron Stove,,,,
 stoveDesc,,,,An iron stove that gets the job done.\n [ Crafted in Advanced Workbench. ],,,,
 plantedAppleTree1,,,,Apple Seeds,,,,
 railingBenchGroupDesc,blocks,Block,KgNone,A railing is very useful for not falling from high places.\n [ Crafted in Advanced Workbench. ],Une rambarde permet d'éviter de tomber des espaces en hauteur.,"Ein Geländer ist sehr nützlich, um nicht von hochgelegenen Orten zu fallen.",,Una barandilla es muy útil para no caerte desde lugares altos.
+railingMetalGroupDesc,blocks,Block,KgNone,A railing is very useful for not falling from high places.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],Une rambarde permet d'éviter de tomber des espaces en hauteur.,"Ein Geländer ist sehr nützlich, um nicht von hochgelegenen Orten zu fallen.",,Una barandilla es muy útil para no caerte desde lugares altos.
+oilRefineryDesc,,,,The oil refinery is used to turn oil shale into useable gas and to keep your supply of gas and oil up to par,,,,
+stonecrossbowBolt,,,,This stone crossbow bolt is perfect for your crossbow and quite easy to make too although it does not do as much damage.,,,,
+lucilleDesc,,,,"Things are about to get REAL and it is time to FUCK shit UP",,,,
+appleCiderDesc,,,,This cider made from apples is great to give you a boost while out working but be careful not too drink too much of it,,,,
+BowlSoupDesc,items,Item Food,,Pouring this can into a bowl can be eaten cold but warming this up could make it taste better.,,,,
+hamburgerDesc,,,,A delicious hamburger made with fresh meat and bread. Gladly will I pay you Tuesday for this hamburger today.\n [ Crafted in Barbecue Grill ] ,,,,
+powerWindSourceDesc,,,,Windmill is used to generate power when the sun is down,,,,
+PinupsDesc,,,,A sexy pin up you painted of the girl of your dreams or was that nightmares,,,,
+honeyHamDesc,,,,Delicious honey glazed ham.\n [ Crafted in Advanced Campfire with a Cooking Grill and Stoves with a Pan. ],,,,
+mealDesc,,,,A delicious serving of a number of side dishes that will surely fill you up and make you feel great.\n [ Crafted in Advanced Campfire and Stoves with a Pan. ],,,,
+OmeletDesc,,,,This is a delicious way to eat eggs and is sure to fill you up.\n [ Crafted in Advanced Campfire. ],,,,
+grillsteakDesc,,,,Delicious grilled steak. It may not be a T Bone but it sure is damn good.\n [ Crafted in Advanced Campfire with a Cooking Grill and Stoves. ],,,,
+blueberryJamDesc,items,Item Food,,Delicious blueberry jam made with blueberries and water.\n [ Crafted in Mortar and Pestle. ],,
+applePieDesc,,,,Delicious homemade apple pie just like Mom used to make.\n [ Crafted in Advanced Campfire and Stoves with a Pan. ],,,,
+stove,,,,Iron Stove,,,,
+stove,,,,Iron Stove,,,,
+stove,,,,Iron Stove,,,,
+stove,,,,Iron Stove,,,,
+arch_3m_full_TEST,blocks,Block,New,Cobblestone Arch 3m,,,,
+arch_3m_window_tipTEST,blocks,Block,New,Cobblestone Arch Window Tip 3m,,,,
+arch_3m_center_windowTEST,blocks,Block,New,Cobblestone Arch Center Window 3m,,,,
+arch_3m_windowTEST,blocks,Block,New,Cobblestone Arch Window 3m,,,,
+PinupsDesc,blocks,Block,New,Steel Arch 3m,,,,
+steelArch,blocks,Block,New,Steel Arch 3m,,,,
+trapFallDesc,blocks,Traps,,This block looks solid but will give way the moment you walk on it. Very handy for making pitfall traps.,,
