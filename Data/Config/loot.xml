@@ -1619,10 +1619,11 @@
 		<item name="bottledWater" prob="0.5"/>
 		<item name="potassiumNitratePowder" count="2,6" prob="0.15"/>
 		<item name="electricParts" count="1,2" prob="0.15"/>
-		<item name="paint" count="5,20" prob="0.15"/>
+		<item name="paint" count="20,80" prob="0.15"/>
 		<item name="assortedDyes" count="3,10" prob="0.15"/>
 		<item group="cupboardCookbooks" count="1" prob="0.25"/>
-		<item name="Twine" count="1,4"/>
+		<item name="Twine" count="1,5"/>
+		<item name="nail" count="1,10"/>
 		<item name="cookingPot" count="1" prob="0.15"/>
 		<item name="cookingGrill" count="1" prob="0.15"/>
 		<item name="emptyJar" count="1,4"/>
@@ -1661,7 +1662,7 @@
 		<item group="trophyGroup"/>
 		<item name="candleStick"/>
 		<item name="bowl" count="1,2"/>
-		<item name="Twine" count="1,4"/>
+		<item name="Twine" count="1,5"/>
 		<item name="dinnerPlate" count="1,2" />
 		<item name="glassCTRSheet"/>
 		<item name="gunPowder" count="10,30"/>
@@ -1671,7 +1672,7 @@
 		<item name="scrapPlastics" count="1,2"/>
 		<item name="glue" count="1,3"/>
 		<item name="nail" count="1,10"/>
-		<item name="Ink" count="1" prob="0.3"/>
+		<item name="Ink" count="1,3" prob="0.3"/>
 		<item name="casinoCoin" count="3,6"/>
 		<item name="bulletCasing" count="3,20"/>
 		<item name="feather" count="3,6"/>
@@ -2057,21 +2058,7 @@
 		<item name="forgedIron" count="5,15" prob="0.25"/>
 		<item name="forgedSteel" count="3,12" prob="0.2"/>
 		<item name="calipers" prob="0.15"/>
-		<item name="minibikeChassis" prob="0.4"/>
-		<item name="minibikeSeat" prob="0.4"/>
-		<item name="minibikeHandlebars" prob="0.4"/>
-	<item name="SteelMinibikeChassis" prob="0.2"/>
-	<item name="TungstenMinibikeChassis" prob="0.1"/>
-	<item name="KevlarMinibikeSeat" prob="0.2"/>
-	<item name="TungstenMinibikeSeat" prob="0.1"/>
-	<item name="SteelMinibikeHandlebars" prob="0.2"/>
-	<item name="TungstenMinibikeHandlebars" prob="0.1"/>
-	<item name="HDMinibikeWheels" prob="0.1"/>
-	<item name="ECOSmallEngine" prob="0.2"/>
-	<item name="HDSmallEngine" prob="0.1"/>
-	<item name="ECOBattery" prob="0.2"/>
-	<item name="HDBattery" prob="0.1"/>
-	<item name="TungstenPadlock" prob="0.1"/>
+
 
 	</lootgroup>
 	<lootgroup name="ZombieFootballPlayer">
@@ -2166,9 +2153,10 @@
 		<item name="paint" count="15,70" prob="0.1"/>
 		<item name="assortedDyes" count="5,10" prob="0.1"/>
 		<item name="paintTool" prob="0.05"/>
+		<item name="nail" count="1,10"/>
 		<item group="householdQuestItems" prob="0.25"/>
 		<item name="inkPen" prob="0.12"/>
-		<item name="Twine" count="1,4"/>
+		<item name="Twine" count="1,5"/>
 	</lootcontainer>
 	<!-- garbage-->
 	<lootcontainer id="2" count="0,2" size="4,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
@@ -2182,15 +2170,16 @@
 		<item name="bottledWater" prob="0.5"/>
 		<item name="potassiumNitratePowder" count="2,6" prob="0.15"/>
 		<item name="electricParts" count="1,2" prob="0.15"/>
-		<item name="paint" count="5,20" prob="0.15"/>
+		<item name="paint" count="10,80" prob="0.15"/>
 		<item name="assortedDyes" count="3,10" prob="0.15"/>
 		<item group="cupboardCookbooks" count="1" prob="0.15"/>
-		<item name="Twine" count="1,4"/>
+		<item name="Twine" count="1,5"/>
 		<item name="cookingPot" count="1" prob="0.15"/>
 		<item name="cookingGrill" count="1" prob="0.15"/>
 		<item name="emptyJar" count="1,4"/>
 		<item name="sugar" count="2,8"/>
 		<item name="canEmpty" count="1"/>
+		<item name="nail" count="1,10"/>
 		<item group="junkFood"/>
 		<item group="seeds" prob="0.05"/>
 		<item name="shortMetalPipe" count="1,2" prob="1.5"/>
@@ -2233,13 +2222,14 @@
 		<item name="paintMagazineWallCoverings"/>
 		<item group="medicine"/>
 		<item group="weaponsPistol+ammo" prob="1.5"/>
+		<item name="nail" count="1,10"/>
 		<item name="flashlight02"/>
 		<item name="inkPen" prob="0.05"/>
 		<item name="Ink" count="1,3"/>
 		<item group="householdQuestItems" prob="0.28" />
 		<item name="rollingPaper" count="1,2" prob="0.18" />
 		<item name="Weed" count="1,2" prob="0.18" />
-		<item name="Twine" count="1,4"/>
+		<item name="Twine" count="1,5"/>
 	</lootcontainer>
 	<!-- medicine cabinets -->
 	<lootcontainer id="7" count="0,2" size="3,3" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" loot_quality_template="baseTemplate">
@@ -2251,10 +2241,10 @@
 		<item name="bottledWater" prob="0.5"/>
 		<item name="potassiumNitratePowder" count="2,6" prob="0.15"/>
 		<item name="electricParts" count="1,2" prob="0.15"/>
-		<item name="paint" count="5,20" prob="0.15"/>
+		<item name="paint" count="10,80" prob="0.15"/>
 		<item name="assortedDyes" count="3,10" prob="0.15"/>
 		<item group="cupboardCookbooks" count="1" prob="0.15"/>
-		<item name="Twine" count="1,4"/>
+		<item name="Twine" count="1,5"/>
 		<item name="cookingPot" count="1" prob="0.15"/>
 		<item name="cookingGrill" count="1" prob="0.15"/>
 		<item name="emptyJar" count="1,4"/>
@@ -2360,7 +2350,7 @@
 		<item name="paintTool" prob="0.005"/>
 		<item name="paintMagazineMetal" prob="0.03"/>
 		<item group="electricalDevices" prob="0.05"/>
-		<item name="Twine" count="1,4"/>
+		<item name="Twine" count="1,5"/>
 		<item group="flares" prob="0.01" />
 		<item group="gunparts"  count="1" prob="0.4"/>
 

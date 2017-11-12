@@ -69,6 +69,9 @@
 	<recipe name="weaponParts" count="1" tooltip="ttScrapVeggies" craft_time="0.5">
 		<wildcard_forge_category />
 	</recipe>
+		<recipe name="car_parts" count="1" tooltip="ttScrapVeggies" craft_time="0.5">
+		<wildcard_forge_category />
+	</recipe>
 	<!-- * * * * * * * * * * * * main recipes * * * * * * * * * * * * -->
 	<recipe name="44MagBullet" count="1"  craft_area="ammunitionTable" craft_tool="calipers" >
 		<ingredient name="bulletTip" count="1"/>
@@ -7132,9 +7135,7 @@
 		<ingredient name="forgedSteel" count="50" />
 		<ingredient name="carBattery" count="1" />
 		<ingredient name="smallEngine" count="1" />
-		<ingredient name="mechanicalParts" count="10" />
 		<ingredient name="electronicParts" count="15" />
-		<ingredient name="scrapPlastics" count="20" />
 	</recipe>
 	<recipe name="halicopterCrate" count="1">
 		<ingredient name="wood" count="15" />
@@ -7842,4 +7843,12 @@
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="40"/>
 	</recipe>
+<recipe name="PurifiedWater" count="1">
+	<ingredient name="purifyingTablets" count="1"/>
+	<ingredient name="bottledRiverWater" count="1"/>
+</recipe>
+<recipe name="PurifiedWater" count="1">
+	<ingredient name="purifyingTablets" count="1"/>
+	<ingredient name="bottledWater" count="1"/>
+</recipe>
 </recipes>
