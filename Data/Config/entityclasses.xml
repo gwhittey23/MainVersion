@@ -3087,7 +3087,7 @@
 
 <entity_class name="CuriousGeorge" extends="othercustomzombietemplate">
 	<property name="Archetype" value="curiousgeorge"/>
-	<property name="MaxHealth" value="5025"/>
+	<property name="MaxHealth" value="3025"/>
 	<property name="ExperienceGain" value="2975"/>
 	<property name="SoundRandom" value="Player_Female/player2painlg"/>
 	<property name="SoundAlert" value="Player_Female/player2painlg"/>

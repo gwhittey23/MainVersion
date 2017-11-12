@@ -271,7 +271,7 @@
 		<objective type="TreasureChest" id="treasureChest" value="500-1750" />
 	</quest>
 	<!--Bladed Weapons-->
-	<quest id="quest_WeaponBlade01" group_name_key="Master of Blades" name_key="Master of Blades 1/9" subtitle_key="Kill 5 zombies" description_key="Kill 5 zombies with a bone shiv." icon="ui_game_symbol_zombie"  	repeatable="true" category_key="Quest" difficulty="medium">
+	<quest id="quest_WeaponBlade01" group_name_key="Master of Blades" name_key="Master of Blades 1/9" subtitle_key="Kill 15 zombies" description_key="Kill 15 zombies with a bone shiv." icon="ui_game_symbol_zombie"  	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="FetchKeep" id="femur" value="1" />
 		<objective type="Craft" id="boneShiv" value="1" />
 		<objective type="ZombieKill" value="15"  />
