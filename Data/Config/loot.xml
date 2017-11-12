@@ -3399,9 +3399,12 @@
 
 <!--Zombiescared-->
 <lootcontainer id="176" count="1,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-	<item name="rawDiamond" count="1,4" prob="250.0"/>
+	<item name="rawDiamond" count="1,4" prob="200.0"/>
 	<item name="silverNugget" count="1,4" prob="200.5"/>
-	<item name="casinoCoin" count="1,1000" prob="200.5"/>
+	<item name="casinoCoin" count="15,1000" prob="250.5"/>
+	<item name="survivorNotes" count="1,20" prob="250.0"/>
+	<item name="car_parts" count="1,20" prob="200.5"/>
+	<item name="weaponParts" count="1,15" prob="200.5"/>
 </lootcontainer>
 <!--homewrecker-->
 
