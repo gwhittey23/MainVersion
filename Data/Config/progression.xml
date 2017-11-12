@@ -1636,7 +1636,7 @@
 			<recipe name="toolHeadSteelAxe" unlock_level="3"/>
 			<recipe name="toolHeadSteelHoe" unlock_level="3"/>
 		</perk>
-		<crafting_skill name="Cooking" exp_to_level="50"   icon="run" description_key="The higher your skill in cooking the faster you can craft meals." title_key="Cooking"  exp_gain_multiplier="0.2"  group="crafting">
+		<crafting_skill name="Cooking" exp_to_level="30"   icon="run" description_key="The higher your skill in cooking the faster you can craft meals." title_key="Cooking"  exp_gain_multiplier="0.2"  group="crafting">
 			<effect name="CraftingTime">
 				<multiply skill_level="1,100" value="1,.5"/>
 			</effect>
@@ -2467,56 +2467,56 @@
 
 		<!-- I'll probably limit max quality on this one, and create a deepwater with a better cane and more quality -->
 		<crafting_skill name="Deep Water" exp_to_level="150" icon="fishing" description_key="deepWaterDesc" title_key="deepWater" max_level="7" group="Fishing">
-			<requirement skill_level="1" required_skill_name="Cooking" required_skill_level="40" />
-			<requirement skill_level="2" required_skill_name="Cooking" required_skill_level="50" />
-			<requirement skill_level="3" required_skill_name="Cooking" required_skill_level="60" />
-			<requirement skill_level="4" required_skill_name="Cooking" required_skill_level="70" />
-			<requirement skill_level="5" required_skill_name="Cooking" required_skill_level="80" />
-			<requirement skill_level="6" required_skill_name="Cooking" required_skill_level="90" />
-			<requirement skill_level="7" required_skill_name="Cooking" required_skill_level="100" />
-			<recipe name="fishingLure3" unlock_level="4" />
-			<recipe name="fishingLure2" unlock_level="3" />
-			<recipe name="fishingLure5" unlock_level="6" />
-			<recipe name="fishingLure4" unlock_level="5" />
-			<recipe name="improvedCane" unlock_level="1" />
-			<recipe name="bambooRaft" unlock_level="2" />
-			<recipe name="barge" unlock_level="7" />
+			<requirement skill_level="1" required_skill_name="Cooking" required_skill_level="40"/>
+			<requirement skill_level="2" required_skill_name="Cooking" required_skill_level="50"/>
+			<requirement skill_level="3" required_skill_name="Cooking" required_skill_level="60"/>
+			<requirement skill_level="4" required_skill_name="Cooking" required_skill_level="70"/>
+			<requirement skill_level="5" required_skill_name="Cooking" required_skill_level="80"/>
+			<requirement skill_level="6" required_skill_name="Cooking" required_skill_level="90"/>
+			<requirement skill_level="7" required_skill_name="Cooking" required_skill_level="100"/>
+			<recipe name="fishingLure3" unlock_level="4"/>
+			<recipe name="fishingLure2" unlock_level="3"/>
+			<recipe name="fishingLure5" unlock_level="6"/>
+			<recipe name="fishingLure4" unlock_level="5"/>
+			<recipe name="improvedCane" unlock_level="1"/>
+			<recipe name="bambooRaft" unlock_level="2"/>
+			<recipe name="barge" unlock_level="7"/>
 			<effect name="CraftingTime">
-				<multiply skill_level="1,2" value="1.00,0.76" />
-				<multiply skill_level="2,4" value="0.76,0.66" />
-				<multiply skill_level="4,5" value="0.66,0.59" />
-				<multiply skill_level="5,6" value="0.59,0.53" />
-				<multiply skill_level="6,7" value="0.53,0.47" />
+				<multiply skill_level="1,2" value="1.00,0.76"/>
+				<multiply skill_level="2,4" value="0.76,0.66"/>
+				<multiply skill_level="4,5" value="0.66,0.59"/>
+				<multiply skill_level="5,6" value="0.59,0.53"/>
+				<multiply skill_level="6,7" value="0.53,0.47"/>
 			</effect>
 			<effect name="CraftingQuality">
-				<setvalue skill_level="1,1" value="350,416" />
-				<setvalue skill_level="1,4" value="416,520" />
-				<setvalue skill_level="4,6" value="520,575" />
-				<setvalue skill_level="6,7" value="575,600" />
+				<setvalue skill_level="1,1" value="350,416"/>
+				<setvalue skill_level="1,4" value="416,520"/>
+				<setvalue skill_level="4,6" value="520,575"/>
+				<setvalue skill_level="6,7" value="575,600"/>
 			</effect>
 			<effect name="RepairTime">
-				<multiply skill_level="1,2" value="1.00,0.61" />
-				<multiply skill_level="2,3" value="0.61,0.54" />
-				<multiply skill_level="3,4" value="0.54,0.48" />
-				<multiply skill_level="4,5" value="0.48,0.43" />
-				<multiply skill_level="5,6" value="0.43,0.39" />
-				<multiply skill_level="6,7" value="0.39,0.35" />
+				<multiply skill_level="1,2" value="1.00,0.61"/>
+				<multiply skill_level="2,3" value="0.61,0.54"/>
+				<multiply skill_level="3,4" value="0.54,0.48"/>
+				<multiply skill_level="4,5" value="0.48,0.43"/>
+				<multiply skill_level="5,6" value="0.43,0.39"/>
+				<multiply skill_level="6,7" value="0.39,0.35"/>
 			</effect>
 			<effect name="RepairAmount">
-				<add skill_level="1,2" value="1,27" />
-				<add skill_level="2,3" value="27,31" />
-				<add skill_level="3,4" value="31,35" />
-				<add skill_level="4,5" value="35,38" />
-				<add skill_level="5,6" value="38,41" />
-				<add skill_level="6,7" value="41,43" />
+				<add skill_level="1,2" value="1,27"/>
+				<add skill_level="2,3" value="27,31"/>
+				<add skill_level="3,4" value="31,35"/>
+				<add skill_level="4,5" value="35,38"/>
+				<add skill_level="5,6" value="38,41"/>
+				<add skill_level="6,7" value="41,43"/>
 			</effect>
 			<effect name="RepairQualityLoss">
-				<multiply skill_level="1,2" value="1.00,0.53" />
-				<multiply skill_level="2,3" value="0.53,0.44" />
-				<multiply skill_level="3,4" value="0.44,0.38" />
-				<multiply skill_level="4,5" value="0.38,0.32" />
-				<multiply skill_level="5,6" value="0.32,0.27" />
-				<multiply skill_level="6,7" value="0.27,0.22" />
+				<multiply skill_level="1,2" value="1.00,0.53"/>
+				<multiply skill_level="2,3" value="0.53,0.44"/>
+				<multiply skill_level="3,4" value="0.44,0.38"/>
+				<multiply skill_level="4,5" value="0.38,0.32"/>
+				<multiply skill_level="5,6" value="0.32,0.27"/>
+				<multiply skill_level="6,7" value="0.27,0.22"/>
 			</effect>
 		</crafting_skill>
 		<action_skill name="Electric Tools" exp_to_level="999" icon="mining" description_key="You can swing that electric tool like a boss. Increase this by using electric tools" title_key="Electric Tools" group="tools">

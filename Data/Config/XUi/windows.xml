@@ -1,7 +1,7 @@
 <windows>
 	<window name="SMX">
 		<texture name="SMX" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\smxhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
+		<label name="SMXServerInfo1" depth="0" size="250,27" text="v1.09" font_size="27" effect="outline" color="[white]" justify="center" pos="-500,-8" overflow="resizeheight" />
 	</window>
 	<!-- S420 Start -->
 	<window name="S420HUDLeftStatBars">
