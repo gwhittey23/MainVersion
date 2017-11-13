@@ -3700,60 +3700,52 @@
 		<!-- disassemble value -->
 	</block>
 	<block id="366" name="cntDeskSafe">
-		<property name="Class" value="SecureLoot"/>
-		<property name="Material" value="Mmetal_hard"/>
-		<property name="MaxDamage" value="1500"/>
-		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal_hard"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="LootContainers/safe_desk" param1="main_mesh"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="ImposterExchange" value="imposterCTREighth" param1="18"/>
-		<property name="IsTerrainDecoration" value="true"/>
-		<property name="LootList" value="11"/>
-		<property name="DescriptionKey" value="cntGunSafeDesc"/>
-		<property class="RepairItems">
-			<property name="forgedSteel" value="10"/>
-		</property>
-		<property name="DowngradeBlock" value="cntDeskSafeInsecure"/>
-		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Building"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="ImposterExchange" value="imposterCTREighth" param1="18"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="11"/>
+	<property name="DescriptionKey" value="cntGunSafeDesc"/>
+	<property class="RepairItems"> <property name="forgedIron" value="10"/> </property>
+	<property name="DowngradeBlock" value="cntDeskSafeInsecure"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building"/>
+	<property name="EconomicValue" value="300"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cntDeskSafeInsecure"/>
 			<property name="Item" value="Lockpick"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="25"/>
 		</property>
-		<property name="EconomicValue" value="300"/>
 	</block>
 	<block id="367" name="cntWallSafe">
-		<property name="Class" value="SecureLoot"/>
-		<property name="Material" value="Mmetal_hard"/>
-		<property name="MaxDamage" value="1500"/>
-		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal_hard"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="LootContainers/safe_wall" param1="main_mesh"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="LootList" value="11"/>
-		<property name="DescriptionKey" value="cntGunSafeDesc"/>
-		<property class="RepairItems">
-			<property name="forgedSteel" value="10"/>
-		</property>
-		<property name="DowngradeBlock" value="cntWallSafeInsecure"/>
-		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Building"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="LootList" value="11"/>
+	<property name="DescriptionKey" value="cntGunSafeDesc"/>
+	<property class="RepairItems"> <property name="forgedIron" value="10"/> </property>
+	<property name="DowngradeBlock" value="cntWallSafeInsecure"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building"/>
+	<property name="EconomicValue" value="300"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cntWallSafeInsecure"/>
 			<property name="Item" value="Lockpick"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="25"/>
 		</property>
-		<property name="EconomicValue" value="300"/>
 	</block>
 	<block id="368" name="pouredConcreteCTRpole">
 		<property name="CreativeMode" value="Player"/>
@@ -6203,23 +6195,21 @@
 		<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 	</block>
 	<block id="628" name="cntGunSafe">
-		<property name="Group" value="Building"/>
-		<property name="Class" value="SecureLoot"/>
-		<property name="Material" value="Mmetal_hard"/>
-		<property name="Shape" value="ModelEntity"/>
+	<property name="Group" value="Building"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal_hard"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/LootContainers/gun_safePrefab"/>
-		<property name="MultiBlockDim" value="1,2,1"/>
-		<property name="ImposterExchange" value="imposterBlock" param1="18"/>
-		<property name="IsTerrainDecoration" value="true"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="LootList" value="42"/>
-		<property name="DowngradeBlock" value="cntGunSafeInsecure"/>
-		<property class="RepairItems">
-			<property name="forgedSteel" value="20"/>
-		</property>
-		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="EconomicValue" value="690"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="18"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="LootList" value="42"/>
+	<property name="DowngradeBlock" value="cntGunSafeInsecure"/>
+	<property class="RepairItems"> <property name="forgedIron" value="20"/> </property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="690"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cntGunSafeInsecure"/>
 			<property name="Item" value="Lockpick"/>
@@ -13139,77 +13129,68 @@
 		<property name="DowngradeBlock" value="rConcreteRamp"/>
 	</block>
 	<block id="1426" name="cntDeskSafeInsecure">
-		<property name="CreativeMode" value="Dev"/>
-		<property name="CustomIcon" value="cntDeskSafe"/>
-		<property name="Material" value="Mmetal_hard"/>
-		<property name="MaxDamage" value="1500"/>
-		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntDeskSafe"/>
+	<property name="Material" value="Mmetal_hard"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="LootContainers/safe_desk" param1="main_mesh"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="ImposterExchange" value="imposterCTREighth" param1="18"/>
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="11"/>
-		<property class="RepairItems">
-			<property name="forgedIron" value="10"/>
-		</property>
-		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<drop event="Harvest" name="forgedIron" count="1,2" prob="0.1"/>
-		<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05"/>
-		<drop event="Harvest" name="scrapIron" count="5,15"/>
-		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="spring" count="1,2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
-		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="ImposterExchange" value="imposterCTREighth" param1="18"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="11"/>
+	<property class="RepairItems"> <property name="forgedIron" value="10"/> </property>
+	<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="forgedIron" count="1,2" prob="0.1"/>
+	<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05"/>
+	<drop event="Harvest" name="scrapIron" count="5,15"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Destroy" name="spring" count="1,2" tool_category="Disassemble"/>
+	<drop event="Destroy" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1427" name="cntWallSafeInsecure">
-		<property name="CreativeMode" value="Dev"/>
-		<property name="CustomIcon" value="cntWallSafe"/>
-		<property name="Material" value="Mmetal_hard"/>
-		<property name="MaxDamage" value="1500"/>
-		<property name="StabilitySupport" value="false"/>
-		<!-- build restriction -->
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntWallSafe"/>
+	<property name="Material" value="Mmetal_hard"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="LootContainers/safe_wall" param1="main_mesh"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="11"/>
-		<property class="RepairItems">
-			<property name="forgedIron" value="10"/>
-		</property>
-		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<drop event="Harvest" name="forgedIron" count="1,2" prob="0.1"/>
-		<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05"/>
-		<drop event="Harvest" name="scrapIron" count="5,15"/>
-		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="spring" count="1,2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
-		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="11"/>
+	<property class="RepairItems"> <property name="forgedIron" value="10"/> </property>
+	<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="forgedIron" count="1,2" prob="0.1"/>
+	<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05"/>
+	<drop event="Harvest" name="scrapIron" count="5,15"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Destroy" name="spring" count="1,2" tool_category="Disassemble"/>
+	<drop event="Destroy" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1428" name="cntGunSafeInsecure">
-		<property name="CreativeMode" value="Dev"/>
-		<property name="CustomIcon" value="cntGunSafe"/>
-		<property name="Material" value="Mmetal_hard"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+	<property name="Material" value="Mmetal_hard"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/LootContainers/gun_safePrefab"/>
-		<property name="MultiBlockDim" value="1,2,1"/>
-		<property name="ImposterExchange" value="imposterBlock" param1="18"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="42"/>
-		<property class="RepairItems">
-			<property name="forgedIron" value="15"/>
-		</property>
-		<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
-		<drop event="Harvest" name="forgedIron" count="1,4" prob="0.1"/>
-		<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05"/>
-		<drop event="Harvest" name="scrapIron" count="5,15"/>
-		<drop event="Destroy" count="0"/>
-		<drop event="Destroy" name="spring" count="1,5" tool_category="Disassemble"/>
-		<drop event="Destroy" name="mechanicalParts" count="1,5" tool_category="Disassemble"/>
-		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="18"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="42"/>
+	<property class="RepairItems"> <property name="forgedIron" value="15"/> </property>
+	<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="forgedIron" count="1,4" prob="0.1"/>
+	<drop event="Harvest" name="forgedSteel" count="0,2" prob="0.05"/>
+	<drop event="Harvest" name="scrapIron" count="5,15"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Destroy" name="spring" count="1,5" tool_category="Disassemble"/>
+	<drop event="Destroy" name="mechanicalParts" count="1,5" tool_category="Disassemble"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="1429" name="garageDoorMetal_v1">
 		<property name="Class" value="DoorSecure"/>

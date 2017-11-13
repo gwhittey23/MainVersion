@@ -2327,7 +2327,7 @@
 			<requirement perk_level="3" required_skill_name="craftSkillAmmo" required_skill_level="3"/>
 			<recipe name="firestormArrow" unlock_level="3"/>
 			<recipe name="explodingCrossbowBolt" unlock_level="3"/>
-			<requirement perk_level="1" required_skill_name="craftSkillAmmo" required_skill_level="4"/>
+			<requirement perk_level="4" required_skill_name="craftSkillAmmo" required_skill_level="4"/>
 			<recipe name="modernArrow" unlock_level="4"/>
 			<recipe name="modernCrossbowBolt" unlock_level="4"/>
 		</perk>
