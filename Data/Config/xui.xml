@@ -254,6 +254,14 @@
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
+		<window_group name="workstation_oilRefinery" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput2" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowFuel" />
+		</window_group>		
 			<window_group name="LabelInterfaceWindow">
 				<window name="windowTextInput" />
 			</window_group>
